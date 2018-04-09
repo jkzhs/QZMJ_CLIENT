@@ -271,22 +271,22 @@ local function gen_hu(value)
 end 
 
 function mt:nw_reg()
-    global.network:nw_register("SC_MJ_GETDATA",handler(self,self.on_net_update_data))
-    global.network:nw_register("SC_MJ_ENTER",handler(self,self.on_new_player_enter))
-    global.network:nw_register("SC_MJ_OUT_CARD", handler(self,self.on_net_out_card))
-    global.network:nw_register("SC_MJ_CPHG",handler(self,self.on_net_CPHG))
-    global.network:nw_register("SC_MJ_ENTRUST",handler(self,self.on_net_entrust))
-    global.network:nw_register("SC_MJ_BROADCAST",handler(self,self.on_net_broadcast))
+    global.network:nw_register("SC_QZMJ_GETDATA",handler(self,self.on_net_update_data))
+    global.network:nw_register("SC_QZMJ_ENTER",handler(self,self.on_new_player_enter))
+    global.network:nw_register("SC_QZMJ_OUT_CARD", handler(self,self.on_net_out_card))
+    global.network:nw_register("SC_QZMJ_CPHG",handler(self,self.on_net_CPHG))
+    global.network:nw_register("SC_QZMJ_ENTRUST",handler(self,self.on_net_entrust))
+    global.network:nw_register("SC_QZMJ_BROADCAST",handler(self,self.on_net_broadcast))
 
 end
 
 function mt:nw_unreg()
-	global.network:nw_unregister("SC_MJ_GETDATA")
-	global.network:nw_unregister("SC_MJ_ENTER")
-	global.network:nw_unregister("SC_MJ_OUT_CARD")
-    global.network:nw_unregister("SC_MJ_CPHG")
-    global.network:nw_unregister("SC_MJ_ENTRUST")
-    global.network:nw_unregister("SC_MJ_BROADCAST")
+	global.network:nw_unregister("SC_QZMJ_GETDATA")
+	global.network:nw_unregister("SC_QZMJ_ENTER")
+	global.network:nw_unregister("SC_QZMJ_OUT_CARD")
+    global.network:nw_unregister("SC_QZMJ_CPHG")
+    global.network:nw_unregister("SC_QZMJ_ENTRUST")
+    global.network:nw_unregister("SC_QZMJ_BROADCAST")
 end
 
 --[[
@@ -509,7 +509,7 @@ end
     =============================================================================================================
 ]]
 --[[
-    message SC_MJ_ENTRUST{
+    message SC_QZMJ_ENTRUST{
 	optional int32 errcode                =1;
 	optional int32 seatid                 =2;
 	optional int32 entrust                =3; // 0 取消托 1进行委托
@@ -538,7 +538,7 @@ function mt:on_net_entrust(resp)
     global._view:hideLoading()
 end 
 --[[
-    message SC_MJ_CPHG{
+    message SC_QZMJ_CPHG{
 	//=======公开数据=========
 	optional int32 errcode                =1;  //
 	optional int32 play_seatid            =2;  //出牌人座位ID
@@ -611,7 +611,7 @@ function mt:on_net_CPHG(resp)
 end 
 --出牌广播
 --[[
-    message SC_MJ_OUT_CARD{
+    message SC_QZMJ_OUT_CARD{
 	optional int32 errcode                =1;
 	optional int32 seatid                 =2;
 	optional int32 posid                  =3;
@@ -656,7 +656,7 @@ end
 --[[
      resp = {
         optional int32 errcode                =1;
-        repeated _play_user play_users        =2;
+        repeated _play_user play_users        =2; 进入玩家的信息
             play_users = {
                 player_name 
                 playerid 
@@ -665,25 +665,19 @@ end
                 seatid 
                 if game_status == STATUS_FREE or STATUS_END then 
                     param2                    准备状态 1准备                    
-                }
-        if 大厅房间 then 
-            repeated int32 play_type          =3; 几人场    
-        end          
+                }    
         repeated int32 param1                 =4; //拓展
     }   
 ]]
 function mt:on_new_player_enter(resp)
     local ec = resp.errcode 
     if ec == 0 then 
-        -- dump(resp.play_users)
         local data = {}
         data.play_users = gen_play_users(resp.play_users)
-        if resp.play_type and resp.play_type ~= 0 then 
-            data.play_type = resp.play_type
-        end 
-        local view = global._view:getViewBase("MaJiang")
+        local view = global._view:getViewBase("QZMaJiang")
         if view~=nil then 
-            view.UpdatePlayerEnter(data)
+            -- view.UpdatePlayerEnter(data)
+            --调用函数
         else
             print("MGR_MJ:on_new_player_enter:not view!!!")
         end
@@ -852,7 +846,7 @@ function mt:get_update_data()
 end 
 
 --[[
-    message SC_MJ_BROADCAST{
+    message SC_QZMJ_BROADCAST{
 	optional int32 errcode                =1;
 	optional int32 type                   =2; // 1 强制退出房间 2 退出房间 3 取消准备 4 准备
 	optional int32 param1                 =3; // 拓展 
@@ -864,24 +858,24 @@ function mt:on_net_broadcast(resp)
     local ec = resp.errcode 
     if ec == 0 then 
         local type = resp.type
-        local view = global._view:getViewBase("MaJiang") 
+        local view = global._view:getViewBase("QZMaJiang") 
         if view == nil then 
             return 
         end 
-        local data = {}
-        if type == BROADCAST_TYPE_FORCEEXIT then --1 强制退出房间
-            -- view.OnBackClick()
-            view:Force_Exit()
+        local data = {}--[[seatid(int 座位id),type(int 广播类型),play_type(int 玩家人数模式)
+        is_prepare (bool 是否点击准备)
+        ]]
+        if type == BROADCAST_TYPE_FORCEEXIT then --1 强制退出房间（只对当事人发送）
+             -- 调用函数[]
+            -- view:Force_Exit()
         elseif type == BROADCAST_TYPE_EXIT then -- 2 退出房间 
             data.seatid = resp.param1 
             data.type = type
             if resp.param2 and resp.param2 ~= 0 then 
-                data.play_type = resp.param2 
-                if resp.play_users then 
-                    data.play_users = gen_play_users(resp.play_users,true,const.MJ_STATUS_FREE)
-                end 
+                data.play_type = resp.param2  
             end 
-            view.Broad_Exit(data)
+            -- 调用函数 [seatid,type,play_type]
+            -- view.Broad_Exit(data)
         elseif type == BROADCAST_TYPE_CANCEL_PREPARE then -- 3 取消准备 
             data.seatid = resp.param1 
             if resp.param2 then --1准备
@@ -890,7 +884,8 @@ function mt:on_net_broadcast(resp)
                 else 
                     data.is_prepare = false
                 end 
-                view.UpdatePlayerPrepare(data)
+                -- 调用函数[seatid,is_prepare]
+                -- view.UpdatePlayerPrepare(data)
             end
             --todo
         elseif type == BROADCAST_TYPE_PREPARE then -- 4 --准备
@@ -901,11 +896,10 @@ function mt:on_net_broadcast(resp)
                 else 
                     data.is_prepare = false
                 end 
-                view.UpdatePlayerPrepare(data)
-            end
-            
-        end 
-        
+                 -- 调用函数[seatid,is_prepare]
+                -- view.UpdatePlayerPrepare(data)
+            end            
+        end         
     end 
 
 end 
