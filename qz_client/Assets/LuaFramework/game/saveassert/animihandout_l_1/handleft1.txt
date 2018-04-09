@@ -1,0 +1,84 @@
+{"frames": {
+
+"animihandl01.png":
+{
+	"frame": {"x":1565,"y":2,"w":301,"h":205},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":301,"h":205},
+	"sourceSize": {"w":301,"h":205}
+},
+"animihandl02.png":
+{
+	"frame": {"x":1186,"y":237,"w":403,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":403,"h":230},
+	"sourceSize": {"w":403,"h":230}
+},
+"animihandl03.png":
+{
+	"frame": {"x":794,"y":248,"w":390,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":390,"h":241},
+	"sourceSize": {"w":390,"h":241}
+},
+"animihandl04.png":
+{
+	"frame": {"x":399,"y":249,"w":393,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":245},
+	"sourceSize": {"w":393,"h":245}
+},
+"animihandl05.png":
+{
+	"frame": {"x":2,"y":2,"w":398,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":398,"h":245},
+	"sourceSize": {"w":398,"h":245}
+},
+"animihandl06.png":
+{
+	"frame": {"x":2,"y":249,"w":395,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":395,"h":245},
+	"sourceSize": {"w":395,"h":245}
+},
+"animihandl07.png":
+{
+	"frame": {"x":402,"y":2,"w":389,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":389,"h":245},
+	"sourceSize": {"w":389,"h":245}
+},
+"animihandl08.png":
+{
+	"frame": {"x":793,"y":2,"w":388,"h":244},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":388,"h":244},
+	"sourceSize": {"w":388,"h":244}
+},
+"animihandl09.png":
+{
+	"frame": {"x":1183,"y":2,"w":380,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":233},
+	"sourceSize": {"w":380,"h":233}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "handleft1.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8f74bc177f232d282908a2ca3e23cedc$"
+}
+}

@@ -1,0 +1,76 @@
+{"frames": {
+
+"dagou.png":
+{
+	"frame": {"x":36,"y":2,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+"dagoudikuang.png":
+{
+	"frame": {"x":106,"y":2,"w":38,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":40},
+	"sourceSize": {"w":38,"h":40}
+},
+"dkchuangjianfangjian1.png":
+{
+	"frame": {"x":221,"y":2,"w":537,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":537,"h":54},
+	"sourceSize": {"w":537,"h":54}
+},
+"dkchuangjianfangjian2.png":
+{
+	"frame": {"x":2,"y":73,"w":563,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":563,"h":48},
+	"sourceSize": {"w":563,"h":48}
+},
+"hbfengexian.png":
+{
+	"frame": {"x":2,"y":2,"w":10,"h":4},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":4},
+	"sourceSize": {"w":10,"h":4}
+},
+"hbganlangzhi.png":
+{
+	"frame": {"x":70,"y":2,"w":34,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":56},
+	"sourceSize": {"w":34,"h":56}
+},
+"paijudikuang_1.png":
+{
+	"frame": {"x":146,"y":2,"w":73,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":69},
+	"sourceSize": {"w":73,"h":69}
+},
+"quedinganniu.png":
+{
+	"frame": {"x":14,"y":2,"w":20,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":57},
+	"sourceSize": {"w":20,"h":57}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "SetRoom.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9ca9c048e26ab98b4e48142b204b9700:1/1$"
+}
+}

@@ -1,0 +1,92 @@
+{"frames": {
+
+"animihandr01.png":
+{
+	"frame": {"x":1638,"y":207,"w":147,"h":197},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":197},
+	"sourceSize": {"w":147,"h":197}
+},
+"animihandr02.png":
+{
+	"frame": {"x":1628,"y":2,"w":298,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":298,"h":203},
+	"sourceSize": {"w":298,"h":203}
+},
+"animihandr03.png":
+{
+	"frame": {"x":1215,"y":221,"w":421,"h":213},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":213},
+	"sourceSize": {"w":421,"h":213}
+},
+"animihandr04.png":
+{
+	"frame": {"x":409,"y":2,"w":397,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":397,"h":245},
+	"sourceSize": {"w":397,"h":245}
+},
+"animihandr05.png":
+{
+	"frame": {"x":2,"y":250,"w":399,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":399,"h":246},
+	"sourceSize": {"w":399,"h":246}
+},
+"animihandr06.png":
+{
+	"frame": {"x":2,"y":2,"w":405,"h":246},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":246},
+	"sourceSize": {"w":405,"h":246}
+},
+"animihandr07.png":
+{
+	"frame": {"x":403,"y":250,"w":405,"h":245},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":245},
+	"sourceSize": {"w":405,"h":245}
+},
+"animihandr08.png":
+{
+	"frame": {"x":808,"y":2,"w":400,"h":243},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":243},
+	"sourceSize": {"w":400,"h":243}
+},
+"animihandr09.png":
+{
+	"frame": {"x":810,"y":247,"w":403,"h":241},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":403,"h":241},
+	"sourceSize": {"w":403,"h":241}
+},
+"animihandr10.png":
+{
+	"frame": {"x":1210,"y":2,"w":416,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":416,"h":217},
+	"sourceSize": {"w":416,"h":217}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "handright1.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3388a783f6a46d8da8ba4c6def149ae2$"
+}
+}

@@ -1,0 +1,124 @@
+{"frames": {
+
+"White.png":
+{
+	"frame": {"x":121,"y":205,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"anjian.png":
+{
+	"frame": {"x":2,"y":2,"w":127,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":71},
+	"sourceSize": {"w":127,"h":71}
+},
+"anjian_1.png":
+{
+	"frame": {"x":2,"y":205,"w":59,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":37},
+	"sourceSize": {"w":59,"h":37}
+},
+"paijudikuang.png":
+{
+	"frame": {"x":131,"y":35,"w":83,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":80},
+	"sourceSize": {"w":83,"h":80}
+},
+"paijudikuang_1.png":
+{
+	"frame": {"x":77,"y":134,"w":73,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":69},
+	"sourceSize": {"w":73,"h":69}
+},
+"paijudikuang_2.png":
+{
+	"frame": {"x":152,"y":134,"w":66,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":61},
+	"sourceSize": {"w":66,"h":61}
+},
+"paijudikuang_3.png":
+{
+	"frame": {"x":2,"y":134,"w":73,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":69},
+	"sourceSize": {"w":73,"h":69}
+},
+"xian.png":
+{
+	"frame": {"x":216,"y":35,"w":38,"h":3},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":3},
+	"sourceSize": {"w":38,"h":3}
+},
+"xian_1.png":
+{
+	"frame": {"x":216,"y":40,"w":35,"h":3},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":3},
+	"sourceSize": {"w":35,"h":3}
+},
+"yinliang.png":
+{
+	"frame": {"x":216,"y":45,"w":27,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":41},
+	"sourceSize": {"w":27,"h":41}
+},
+"yinliang_1.png":
+{
+	"frame": {"x":235,"y":2,"w":9,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":19},
+	"sourceSize": {"w":9,"h":19}
+},
+"yinliang_2.png":
+{
+	"frame": {"x":216,"y":88,"w":24,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":44},
+	"sourceSize": {"w":24,"h":44}
+},
+"zi.png":
+{
+	"frame": {"x":63,"y":205,"w":56,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":30},
+	"sourceSize": {"w":56,"h":30}
+},
+"zi_1.png":
+{
+	"frame": {"x":131,"y":2,"w":102,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":31},
+	"sourceSize": {"w":102,"h":31}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Setting.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e1a3de5e15f4d5f3a5cffa82ac833e24:1/1$"
+}
+}

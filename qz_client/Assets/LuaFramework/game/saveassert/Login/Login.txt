@@ -1,0 +1,28 @@
+{"frames": {
+
+"dengru.png":
+{
+	"frame": {"x":2,"y":2,"w":222,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":89},
+	"sourceSize": {"w":222,"h":89}
+},
+"weixindengru.png":
+{
+	"frame": {"x":2,"y":93,"w":222,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":80},
+	"sourceSize": {"w":222,"h":80}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Login.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4765b244f289aafeacd5469d4a2bc63e:1/1$"
+}
+}

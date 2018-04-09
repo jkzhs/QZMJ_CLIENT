@@ -1,0 +1,68 @@
+{"frames": {
+
+"animihandl10.png":
+{
+	"frame": {"x":2,"y":682,"w":401,"h":236},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":401,"h":236},
+	"sourceSize": {"w":401,"h":236}
+},
+"animihandl11.png":
+{
+	"frame": {"x":2,"y":463,"w":420,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":217},
+	"sourceSize": {"w":420,"h":217}
+},
+"animihandl12.png":
+{
+	"frame": {"x":462,"y":462,"w":445,"h":213},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":213},
+	"sourceSize": {"w":445,"h":213}
+},
+"animihandl13.png":
+{
+	"frame": {"x":462,"y":241,"w":451,"h":219},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":451,"h":219},
+	"sourceSize": {"w":451,"h":219}
+},
+"animihandl14.png":
+{
+	"frame": {"x":2,"y":234,"w":458,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":458,"h":227},
+	"sourceSize": {"w":458,"h":227}
+},
+"animihandl15.png":
+{
+	"frame": {"x":2,"y":2,"w":461,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":461,"h":230},
+	"sourceSize": {"w":461,"h":230}
+},
+"animihandl16.png":
+{
+	"frame": {"x":465,"y":2,"w":460,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":460,"h":237},
+	"sourceSize": {"w":460,"h":237}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "handleft2.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dfabb00510ffa995afbcab59efe35dec$"
+}
+}

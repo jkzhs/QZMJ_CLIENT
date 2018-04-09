@@ -1,0 +1,52 @@
+{"frames": {
+
+"bengjialipai.png":
+{
+	"frame": {"x":361,"y":2,"w":70,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":99},
+	"sourceSize": {"w":70,"h":99}
+},
+"huangguantb.png":
+{
+	"frame": {"x":2,"y":777,"w":223,"h":156},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":156},
+	"sourceSize": {"w":223,"h":156}
+},
+"jingpaihengfu.png":
+{
+	"frame": {"x":2,"y":2,"w":357,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":357,"h":124},
+	"sourceSize": {"w":357,"h":124}
+},
+"jingpaitexiao1.png":
+{
+	"frame": {"x":2,"y":494,"w":289,"h":281},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":289,"h":281},
+	"sourceSize": {"w":289,"h":281}
+},
+"jingpaitexiao2.png":
+{
+	"frame": {"x":2,"y":128,"w":355,"h":364},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":355,"h":364},
+	"sourceSize": {"w":355,"h":364}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "AnimaMJJing.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6cbdb4dc2652eacadd51107e15ad05c4:1/1$"
+}
+}

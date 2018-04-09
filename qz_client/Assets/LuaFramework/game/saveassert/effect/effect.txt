@@ -1,0 +1,108 @@
+{"frames": {
+
+"zhadan_0.png":
+{
+	"frame": {"x":787,"y":2,"w":137,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":137,"h":196},
+	"sourceSize": {"w":137,"h":196}
+},
+"zhadan_1.png":
+{
+	"frame": {"x":164,"y":349,"w":155,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":155,"h":345},
+	"sourceSize": {"w":155,"h":345}
+},
+"zhadan_10.png":
+{
+	"frame": {"x":322,"y":2,"w":152,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":196},
+	"sourceSize": {"w":152,"h":196}
+},
+"zhadan_11.png":
+{
+	"frame": {"x":476,"y":2,"w":146,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":196},
+	"sourceSize": {"w":146,"h":196}
+},
+"zhadan_2.png":
+{
+	"frame": {"x":2,"y":2,"w":157,"h":350},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":350},
+	"sourceSize": {"w":157,"h":350}
+},
+"zhadan_3.png":
+{
+	"frame": {"x":2,"y":354,"w":160,"h":349},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":349},
+	"sourceSize": {"w":160,"h":349}
+},
+"zhadan_4.png":
+{
+	"frame": {"x":161,"y":2,"w":159,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":345},
+	"sourceSize": {"w":159,"h":345}
+},
+"zhadan_5.png":
+{
+	"frame": {"x":321,"y":349,"w":159,"h":341},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":341},
+	"sourceSize": {"w":159,"h":341}
+},
+"zhadan_6.png":
+{
+	"frame": {"x":624,"y":2,"w":161,"h":195},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":195},
+	"sourceSize": {"w":161,"h":195}
+},
+"zhadan_7.png":
+{
+	"frame": {"x":2,"y":705,"w":158,"h":202},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":202},
+	"sourceSize": {"w":158,"h":202}
+},
+"zhadan_8.png":
+{
+	"frame": {"x":331,"y":692,"w":155,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":155,"h":196},
+	"sourceSize": {"w":155,"h":196}
+},
+"zhadan_9.png":
+{
+	"frame": {"x":162,"y":705,"w":167,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":167,"h":196},
+	"sourceSize": {"w":167,"h":196}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "effect.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9d76c6a8424c9b9a35c89c204cddc3ab:1/1$"
+}
+}

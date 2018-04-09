@@ -1,0 +1,84 @@
+{"frames": {
+
+"animihandr21.png":
+{
+	"frame": {"x":2,"y":642,"w":444,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":196},
+	"sourceSize": {"w":444,"h":196}
+},
+"animihandr22.png":
+{
+	"frame": {"x":2,"y":1251,"w":438,"h":202},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":438,"h":202},
+	"sourceSize": {"w":438,"h":202}
+},
+"animihandr23.png":
+{
+	"frame": {"x":2,"y":840,"w":443,"h":207},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":443,"h":207},
+	"sourceSize": {"w":443,"h":207}
+},
+"animihandr24.png":
+{
+	"frame": {"x":2,"y":432,"w":444,"h":208},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":208},
+	"sourceSize": {"w":444,"h":208}
+},
+"animihandr25.png":
+{
+	"frame": {"x":2,"y":1049,"w":439,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":439,"h":200},
+	"sourceSize": {"w":439,"h":200}
+},
+"animihandr26.png":
+{
+	"frame": {"x":2,"y":1775,"w":386,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":386,"h":196},
+	"sourceSize": {"w":386,"h":196}
+},
+"animihandr27.png":
+{
+	"frame": {"x":2,"y":2,"w":478,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":478,"h":192},
+	"sourceSize": {"w":478,"h":192}
+},
+"animihandr28.png":
+{
+	"frame": {"x":2,"y":196,"w":471,"h":234},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":471,"h":234},
+	"sourceSize": {"w":471,"h":234}
+},
+"animihandr29.png":
+{
+	"frame": {"x":2,"y":1455,"w":434,"h":318},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":434,"h":318},
+	"sourceSize": {"w":434,"h":318}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "handright3.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3a8def9fe21ca80a5032acfea1c6c95b$"
+}
+}

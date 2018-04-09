@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="LUA.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
+    <Filter Name="Assets" Directory=".\..\Assets" Toggle="false" >
+        <Filter Name="LUA" Directory=".\..\Assets\LUA" Toggle="true" />
+        <Filter Name="LuaFramework" Directory=".\..\Assets\LuaFramework" Toggle="false" >
+            <Filter Name="Editor" Directory=".\..\Assets\LuaFramework\Editor" Toggle="true" />
+            <Filter Name="game" Directory=".\..\Assets\LuaFramework\game" Toggle="false" >
+                <Filter Name="saveassert" Directory=".\..\Assets\LuaFramework\game\saveassert" Toggle="true" >
+                    <Filter Name="animicard01" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard01" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard01\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard010" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard010" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard010\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard02" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard02" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard02\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard03" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard03" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard03\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard04" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard04" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard04\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard05" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard05" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard05\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard06" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard06" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard06\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard07" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard07" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard07\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard08" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard08" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard08\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicard09" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard09" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicard09\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animicardbg" Directory=".\..\Assets\LuaFramework\game\saveassert\animicardbg" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animicardbg\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_l_1" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_l_1" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_l_1\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_l_2" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_l_2" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_l_2\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_l_3" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_l_3" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_l_3\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_r_1" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_1" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_1\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_r_2" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_2" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_2\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_r_3" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_3" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_3\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="animihandout_r_4" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_4" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\animihandout_r_4\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="AppIcon" Directory=".\..\Assets\LuaFramework\game\saveassert\AppIcon" Toggle="true" />
+                    <Filter Name="Bank" Directory=".\..\Assets\LuaFramework\game\saveassert\Bank" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Bank\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Dealer" Directory=".\..\Assets\LuaFramework\game\saveassert\Dealer" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Dealer\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="effect" Directory=".\..\Assets\LuaFramework\game\saveassert\effect" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\effect\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="GameLobby" Directory=".\..\Assets\LuaFramework\game\saveassert\GameLobby" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\GameLobby\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="GameScore" Directory=".\..\Assets\LuaFramework\game\saveassert\GameScore" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\GameScore\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="JoinRoom" Directory=".\..\Assets\LuaFramework\game\saveassert\JoinRoom" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\JoinRoom\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Loading" Directory=".\..\Assets\LuaFramework\game\saveassert\Loading" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Loading\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Login" Directory=".\..\Assets\LuaFramework\game\saveassert\Login" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Login\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Niuniu" Directory=".\..\Assets\LuaFramework\game\saveassert\Niuniu" Toggle="true" >
+                        <Filter Name="create" Directory=".\..\Assets\LuaFramework\game\saveassert\Niuniu\create" Toggle="true" />
+                        <Filter Name="gif-assets" Directory=".\..\Assets\LuaFramework\game\saveassert\Niuniu\gif-assets" Toggle="true" />
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Niuniu\icon" Toggle="true" />
+                        <Filter Name="joinRoom" Directory=".\..\Assets\LuaFramework\game\saveassert\Niuniu\joinRoom" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Room" Directory=".\..\Assets\LuaFramework\game\saveassert\Room" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Room\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Rule" Directory=".\..\Assets\LuaFramework\game\saveassert\Rule" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Rule\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="SendInvitation" Directory=".\..\Assets\LuaFramework\game\saveassert\SendInvitation" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\SendInvitation\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Setting" Directory=".\..\Assets\LuaFramework\game\saveassert\Setting" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Setting\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Sound" Directory=".\..\Assets\LuaFramework\game\saveassert\Sound" Toggle="true" />
+                    <Filter Name="Support" Directory=".\..\Assets\LuaFramework\game\saveassert\Support" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Support\icon" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Tip" Directory=".\..\Assets\LuaFramework\game\saveassert\Tip" Toggle="true" >
+                        <Filter Name="icon" Directory=".\..\Assets\LuaFramework\game\saveassert\Tip\icon" Toggle="true" />
+                    </Filter>
+                </Filter>
+                <Filter Name="src" Directory=".\..\Assets\LuaFramework\game\src" Toggle="false" >
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\config.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\const.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\game_init.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\global.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\main_game.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\Network.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\version.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\View.lua" />
+                    <Filter Name="app" Directory=".\..\Assets\LuaFramework\game\src\app" Toggle="false" >
+                        <Filter Name="common" Directory=".\..\Assets\LuaFramework\game\src\app\common" Toggle="false" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\account_data.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\dictionary.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\errcode_util.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\lua_map.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\msgqueue.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\player_name.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\profiler.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\texts_CN.lua" />
+                            <Filter Name="queue" Directory=".\..\Assets\LuaFramework\game\src\app\common\queue" Toggle="false" >
+                                <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\common\queue\queue.lua" />
+                            </Filter>
+                        </Filter>
+                        <Filter Name="conf_mgr" Directory=".\..\Assets\LuaFramework\game\src\app\conf_mgr" Toggle="false" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\conf_mgr\conf_mgr_ox.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\conf_mgr\config_mgr.lua" />
+                        </Filter>
+                        <Filter Name="etc" Directory=".\..\Assets\LuaFramework\game\src\app\etc" Toggle="false" >
+                            <Filter Name="ox" Directory=".\..\Assets\LuaFramework\game\src\app\etc\ox" Toggle="false" >
+                                <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\etc\ox\ox_money.lua" />
+                            </Filter>
+                        </Filter>
+                        <Filter Name="mgr" Directory=".\..\Assets\LuaFramework\game\src\app\mgr" Toggle="false" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\login_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_12zhi.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_bank.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_charge.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_chat.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_dealer.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_niuniu.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_room.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\mgr_scene.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\player.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\sdk_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\sys_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\mgr\ui_mgr.lua" />
+                        </Filter>
+                        <Filter Name="net" Directory=".\..\Assets\LuaFramework\game\src\app\net" Toggle="false" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\net\network.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\net\socket.lua" />
+                        </Filter>
+                        <Filter Name="service" Directory=".\..\Assets\LuaFramework\game\src\app\service" Toggle="false" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\service\client.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\service\service_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\app\service\stat.lua" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="controller" Directory=".\..\Assets\LuaFramework\game\src\controller" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\BankCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\DealerCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\GameLobbyCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\GameScoreCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\JoinRoomCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\LoadingCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\LoginCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\NiuniuCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\RoomCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\RuleCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\SendInvitationCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\SettingCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\SupportCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\TipCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\ShierzhiCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\ShierzhiRoomCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\controller\PlayerListCtrl.lua" />
+                    </Filter>
+                    <Filter Name="easy" Directory=".\..\Assets\LuaFramework\game\src\easy" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\functions.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\GameObject.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\init.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\logictimer.lua" />
+                        <Filter Name="components" Directory=".\..\Assets\LuaFramework\game\src\easy\components" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\components\Component.lua" />
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\components\EventProtocol.lua" />
+                        </Filter>
+                        <Filter Name="net" Directory=".\..\Assets\LuaFramework\game\src\easy\net" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\net\SocketTCP.lua" />
+                        </Filter>
+                        <Filter Name="scene" Directory=".\..\Assets\LuaFramework\game\src\easy\scene" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\easy\scene\scenes.lua" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="lib" Directory=".\..\Assets\LuaFramework\game\src\lib" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\lib\bit32.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\lib\crab.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\lib\protobuf.lua" />
+                    </Filter>
+                    <Filter Name="logic" Directory=".\..\Assets\LuaFramework\game\src\logic" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\logic\CtrlManager.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\logic\ViewManager.lua" />
+                    </Filter>
+                    <Filter Name="platform" Directory=".\..\Assets\LuaFramework\game\src\platform" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\platform\1sdk.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\platform\ios.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\platform\login_api.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\platform\lwt.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\platform\wx.lua" />
+                    </Filter>
+                    <Filter Name="sys" Directory=".\..\Assets\LuaFramework\game\src\sys" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\sys\client_heartbeat.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\sys\cmd.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\sys\errcode.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\sys\errcode_desc.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\sys\error_code.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\sys\time_service.lua" />
+                    </Filter>
+                    <Filter Name="unity" Directory=".\..\Assets\LuaFramework\game\src\unity" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\unity\functions.lua" />
+                    </Filter>
+                    <Filter Name="view" Directory=".\..\Assets\LuaFramework\game\src\view" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\BankPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\DealerPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\GameLobbyPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\GameScorePanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\JoinRoomPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\LoadingPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\LoginPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\NiuniuPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\RoomPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\RulePanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\SendInvitationPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\SettingPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\SupportPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\TipPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\ShierzhiPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\ShierzhiRoomPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\game\src\view\PlayerListPanel.lua" />
+                    </Filter>
+                </Filter>
+                <Filter Name="userassert" Directory=".\..\Assets\LuaFramework\game\userassert" Toggle="true" >
+                    <Filter Name="Banker" Directory=".\..\Assets\LuaFramework\game\userassert\Banker" Toggle="true" />
+                    <Filter Name="Dealer" Directory=".\..\Assets\LuaFramework\game\userassert\Dealer" Toggle="true" />
+                    <Filter Name="GameLobby" Directory=".\..\Assets\LuaFramework\game\userassert\GameLobby" Toggle="true" />
+                    <Filter Name="GameScore" Directory=".\..\Assets\LuaFramework\game\userassert\GameScore" Toggle="true" />
+                    <Filter Name="Room" Directory=".\..\Assets\LuaFramework\game\userassert\Room" Toggle="true" />
+                    <Filter Name="Rule" Directory=".\..\Assets\LuaFramework\game\userassert\Rule" Toggle="true" />
+                    <Filter Name="SendInvitation" Directory=".\..\Assets\LuaFramework\game\userassert\SendInvitation" Toggle="true" />
+                    <Filter Name="Setting" Directory=".\..\Assets\LuaFramework\game\userassert\Setting" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter Name="Lua" Directory=".\..\Assets\LuaFramework\Lua" Toggle="true" >
+                <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\eventlib.lua" />
+                <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\events.lua" />
+                <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\Main.lua" />
+                <Filter Name="3rd" Directory=".\..\Assets\LuaFramework\Lua\3rd" Toggle="true" >
+                    <Filter Name="cjson" Directory=".\..\Assets\LuaFramework\Lua\3rd\cjson" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\cjson\json2lua.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\cjson\lua2json.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\cjson\test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\cjson\util.lua" />
+                    </Filter>
+                    <Filter Name="luabitop" Directory=".\..\Assets\LuaFramework\Lua\3rd\luabitop" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\luabitop\bitbench.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\luabitop\bittest.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\luabitop\installpath.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\luabitop\md5test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\luabitop\nsievebits.lua" />
+                        <Filter Name="doc" Directory=".\..\Assets\LuaFramework\Lua\3rd\luabitop\doc" Toggle="true" >
+                            <Filter Name="img" Directory=".\..\Assets\LuaFramework\Lua\3rd\luabitop\doc\img" Toggle="true" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="pbc" Directory=".\..\Assets\LuaFramework\Lua\3rd\pbc" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pbc\parser.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pbc\protobuf.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pbc\test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pbc\test2.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pbc\testparser.lua" />
+                    </Filter>
+                    <Filter Name="pblua" Directory=".\..\Assets\LuaFramework\Lua\3rd\pblua" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pblua\login_pb.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\pblua\person_pb.lua" />
+                    </Filter>
+                    <Filter Name="sproto" Directory=".\..\Assets\LuaFramework\Lua\3rd\sproto" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\sproto\print_r.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\sproto\sproto.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\sproto\sprotoparser.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\sproto\test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\sproto\testall.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\Lua\3rd\sproto\testrpc.lua" />
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter Name="Luajit" Directory=".\..\Assets\LuaFramework\Luajit" Toggle="true" >
+                <Filter Name="jit" Directory=".\..\Assets\LuaFramework\Luajit\jit" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\bc.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\bcsave.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dis_arm.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dis_mips.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dis_mipsel.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dis_ppc.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dis_x64.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dis_x86.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\dump.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\v.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\Luajit\jit\vmdef.lua" />
+                </Filter>
+            </Filter>
+            <Filter Name="Resources" Directory=".\..\Assets\LuaFramework\Resources" Toggle="true" />
+            <Filter Name="Scenes" Directory=".\..\Assets\LuaFramework\Scenes" Toggle="true" />
+            <Filter Name="Scripts" Directory=".\..\Assets\LuaFramework\Scripts" Toggle="false" >
+                <Filter Name="ChatVoice" Directory=".\..\Assets\LuaFramework\Scripts\ChatVoice" Toggle="true" >
+                    <Filter Name="Libs" Directory=".\..\Assets\LuaFramework\Scripts\ChatVoice\Libs" Toggle="true" />
+                </Filter>
+                <Filter Name="Common" Directory=".\..\Assets\LuaFramework\Scripts\Common" Toggle="true" >
+                    <Filter Name="NGUI" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI" Toggle="true" >
+                        <Filter Name="Editor" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Editor" Toggle="true" >
+                            <Filter Name="Preview" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Editor\Preview" Toggle="true" />
+                        </Filter>
+                        <Filter Name="Resources" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Resources" Toggle="true" >
+                            <Filter Name="Shaders" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Resources\Shaders" Toggle="true" />
+                        </Filter>
+                        <Filter Name="Scripts" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Scripts" Toggle="true" >
+                            <Filter Name="Editor" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Scripts\Editor" Toggle="true" />
+                            <Filter Name="Interaction" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Scripts\Interaction" Toggle="true" />
+                            <Filter Name="Internal" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Scripts\Internal" Toggle="true" />
+                            <Filter Name="Tweening" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Scripts\Tweening" Toggle="true" />
+                            <Filter Name="UI" Directory=".\..\Assets\LuaFramework\Scripts\Common\NGUI\Scripts\UI" Toggle="true" />
+                        </Filter>
+                    </Filter>
+                </Filter>
+                <Filter Name="ConstDefine" Directory=".\..\Assets\LuaFramework\Scripts\ConstDefine" Toggle="true" />
+                <Filter Name="Framework" Directory=".\..\Assets\LuaFramework\Scripts\Framework" Toggle="true" >
+                    <Filter Name="Controller" Directory=".\..\Assets\LuaFramework\Scripts\Framework\Controller" Toggle="true" >
+                        <Filter Name="Command" Directory=".\..\Assets\LuaFramework\Scripts\Framework\Controller\Command" Toggle="true" />
+                    </Filter>
+                    <Filter Name="Core" Directory=".\..\Assets\LuaFramework\Scripts\Framework\Core" Toggle="true" />
+                    <Filter Name="Interfaces" Directory=".\..\Assets\LuaFramework\Scripts\Framework\Interfaces" Toggle="true" />
+                </Filter>
+                <Filter Name="Manager" Directory=".\..\Assets\LuaFramework\Scripts\Manager" Toggle="true" >
+                    <Filter Name="Interface" Directory=".\..\Assets\LuaFramework\Scripts\Manager\Interface" Toggle="true" />
+                </Filter>
+                <Filter Name="Network" Directory=".\..\Assets\LuaFramework\Scripts\Network" Toggle="true" />
+                <Filter Name="ObjectPool" Directory=".\..\Assets\LuaFramework\Scripts\ObjectPool" Toggle="true" />
+                <Filter Name="Utility" Directory=".\..\Assets\LuaFramework\Scripts\Utility" Toggle="true" />
+                <Filter Name="View" Directory=".\..\Assets\LuaFramework\Scripts\View" Toggle="true" />
+            </Filter>
+            <Filter Name="ToLua" Directory=".\..\Assets\LuaFramework\ToLua" Toggle="true" >
+                <Filter Name="BaseType" Directory=".\..\Assets\LuaFramework\ToLua\BaseType" Toggle="true" />
+                <Filter Name="Core" Directory=".\..\Assets\LuaFramework\ToLua\Core" Toggle="true" />
+                <Filter Name="Editor" Directory=".\..\Assets\LuaFramework\ToLua\Editor" Toggle="true" >
+                    <Filter Name="Extend" Directory=".\..\Assets\LuaFramework\ToLua\Editor\Extend" Toggle="true" />
+                </Filter>
+                <Filter Name="Lua" Directory=".\..\Assets\LuaFramework\ToLua\Lua" Toggle="false" >
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\event.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\list.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\ltn12.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\mime.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\slot.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\tolua.lua" />
+                    <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\typeof.lua" />
+                    <Filter Name="cjson" Directory=".\..\Assets\LuaFramework\ToLua\Lua\cjson" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\cjson\util.lua" />
+                    </Filter>
+                    <Filter Name="jit" Directory=".\..\Assets\LuaFramework\ToLua\Lua\jit" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\bc.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\bcsave.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_arm.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_arm64.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_arm64be.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_mips.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_mips64.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_mips64el.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_mipsel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_ppc.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_x64.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dis_x86.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\dump.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\p.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\v.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\vmdef.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\jit\zone.lua" />
+                    </Filter>
+                    <Filter Name="lpeg" Directory=".\..\Assets\LuaFramework\ToLua\Lua\lpeg" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\lpeg\re.lua" />
+                    </Filter>
+                    <Filter Name="misc" Directory=".\..\Assets\LuaFramework\ToLua\Lua\misc" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\misc\functions.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\misc\misc.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\misc\strict.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\misc\utf8.lua" />
+                    </Filter>
+                    <Filter Name="protobuf" Directory=".\..\Assets\LuaFramework\ToLua\Lua\protobuf" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\containers.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\decoder.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\descriptor.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\encoder.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\listener.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\protobuf.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\text_format.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\type_checkers.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\protobuf\wire_format.lua" />
+                    </Filter>
+                    <Filter Name="socket" Directory=".\..\Assets\LuaFramework\ToLua\Lua\socket" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\ftp.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\headers.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\http.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\mbox.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\smtp.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\tp.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\socket\url.lua" />
+                    </Filter>
+                    <Filter Name="System" Directory=".\..\Assets\LuaFramework\ToLua\Lua\System" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\System\coroutine.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\System\Timer.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\System\ValueType.lua" />
+                        <Filter Name="Reflection" Directory=".\..\Assets\LuaFramework\ToLua\Lua\System\Reflection" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\System\Reflection\BindingFlags.lua" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="UnityEngine" Directory=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Bounds.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Color.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\LayerMask.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Mathf.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Plane.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Quaternion.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Ray.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\RaycastHit.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Time.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Touch.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Vector2.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Vector3.lua" />
+                        <LuaFile RelativePath=".\..\Assets\LuaFramework\ToLua\Lua\UnityEngine\Vector4.lua" />
+                    </Filter>
+                </Filter>
+                <Filter Name="Misc" Directory=".\..\Assets\LuaFramework\ToLua\Misc" Toggle="true" />
+                <Filter Name="Reflection" Directory=".\..\Assets\LuaFramework\ToLua\Reflection" Toggle="true" />
+                <Filter Name="Source" Directory=".\..\Assets\LuaFramework\ToLua\Source" Toggle="true" >
+                    <Filter Name="Generate" Directory=".\..\Assets\LuaFramework\ToLua\Source\Generate" Toggle="true" />
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter Name="Plugins" Directory=".\..\Assets\Plugins" Toggle="true" >
+            <Filter Name="Android" Directory=".\..\Assets\Plugins\Android" Toggle="false" >
+                <Filter Name="libs" Directory=".\..\Assets\Plugins\Android\libs" Toggle="true" >
+                    <Filter Name="armeabi" Directory=".\..\Assets\Plugins\Android\libs\armeabi" Toggle="true" />
+                    <Filter Name="armeabi-v7a" Directory=".\..\Assets\Plugins\Android\libs\armeabi-v7a" Toggle="true" />
+                    <Filter Name="x86" Directory=".\..\Assets\Plugins\Android\libs\x86" Toggle="true" />
+                </Filter>
+                <Filter Name="res" Directory=".\..\Assets\Plugins\Android\res" Toggle="true" >
+                    <Filter Name="drawable" Directory=".\..\Assets\Plugins\Android\res\drawable" Toggle="true" />
+                    <Filter Name="values" Directory=".\..\Assets\Plugins\Android\res\values" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter Name="iOS" Directory=".\..\Assets\Plugins\iOS" Toggle="true" />
+            <Filter Name="tolua.bundle" Directory=".\..\Assets\Plugins\tolua.bundle" Toggle="false" >
+                <Filter Name="Contents" Directory=".\..\Assets\Plugins\tolua.bundle\Contents" Toggle="true" >
+                    <Filter Name="MacOS" Directory=".\..\Assets\Plugins\tolua.bundle\Contents\MacOS" Toggle="true" />
+                    <Filter Name="Resources" Directory=".\..\Assets\Plugins\tolua.bundle\Contents\Resources" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter Name="x86_64" Directory=".\..\Assets\Plugins\x86_64" Toggle="true" />
+        </Filter>
+        <Filter Name="StreamingAssets" Directory=".\..\Assets\StreamingAssets" Toggle="true" >
+            <Filter Name="game" Directory=".\..\Assets\StreamingAssets\game" Toggle="false" >
+                <Filter Name="AssetBounld" Directory=".\..\Assets\StreamingAssets\game\AssetBounld" Toggle="true" />
+                <Filter Name="src" Directory=".\..\Assets\StreamingAssets\game\src" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\config.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\const.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\game_init.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\global.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\main_game.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\Network.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\version.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\View.lua" />
+                    <Filter Name="app" Directory=".\..\Assets\StreamingAssets\game\src\app" Toggle="false" >
+                        <Filter Name="common" Directory=".\..\Assets\StreamingAssets\game\src\app\common" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\account_data.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\dictionary.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\errcode_util.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\lua_map.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\msgqueue.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\player_name.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\profiler.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\texts_CN.lua" />
+                            <Filter Name="queue" Directory=".\..\Assets\StreamingAssets\game\src\app\common\queue" Toggle="true" >
+                                <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\common\queue\queue.lua" />
+                            </Filter>
+                        </Filter>
+                        <Filter Name="conf_mgr" Directory=".\..\Assets\StreamingAssets\game\src\app\conf_mgr" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\conf_mgr\conf_mgr_ox.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\conf_mgr\config_mgr.lua" />
+                        </Filter>
+                        <Filter Name="etc" Directory=".\..\Assets\StreamingAssets\game\src\app\etc" Toggle="true" >
+                            <Filter Name="ox" Directory=".\..\Assets\StreamingAssets\game\src\app\etc\ox" Toggle="true" >
+                                <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\etc\ox\ox_money.lua" />
+                            </Filter>
+                        </Filter>
+                        <Filter Name="mgr" Directory=".\..\Assets\StreamingAssets\game\src\app\mgr" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\login_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_12zhi.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_bank.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_charge.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_chat.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_dealer.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_niuniu.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_room.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\mgr_scene.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\player.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\sdk_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\sys_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\mgr\ui_mgr.lua" />
+                        </Filter>
+                        <Filter Name="net" Directory=".\..\Assets\StreamingAssets\game\src\app\net" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\net\network.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\net\socket.lua" />
+                        </Filter>
+                        <Filter Name="service" Directory=".\..\Assets\StreamingAssets\game\src\app\service" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\service\client.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\service\service_mgr.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\app\service\stat.lua" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="controller" Directory=".\..\Assets\StreamingAssets\game\src\controller" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\BankCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\DealerCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\GameLobbyCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\GameScoreCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\JoinRoomCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\LoadingCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\LoginCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\NiuniuCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\RoomCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\RuleCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\SendInvitationCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\SettingCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\SupportCtrl.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\controller\TipCtrl.lua" />
+                    </Filter>
+                    <Filter Name="easy" Directory=".\..\Assets\StreamingAssets\game\src\easy" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\functions.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\GameObject.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\init.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\logictimer.lua" />
+                        <Filter Name="components" Directory=".\..\Assets\StreamingAssets\game\src\easy\components" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\components\Component.lua" />
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\components\EventProtocol.lua" />
+                        </Filter>
+                        <Filter Name="net" Directory=".\..\Assets\StreamingAssets\game\src\easy\net" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\net\SocketTCP.lua" />
+                        </Filter>
+                        <Filter Name="scene" Directory=".\..\Assets\StreamingAssets\game\src\easy\scene" Toggle="true" >
+                            <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\easy\scene\scenes.lua" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="lib" Directory=".\..\Assets\StreamingAssets\game\src\lib" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\lib\bit32.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\lib\crab.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\lib\protobuf.lua" />
+                    </Filter>
+                    <Filter Name="logic" Directory=".\..\Assets\StreamingAssets\game\src\logic" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\logic\CtrlManager.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\logic\ViewManager.lua" />
+                    </Filter>
+                    <Filter Name="platform" Directory=".\..\Assets\StreamingAssets\game\src\platform" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\platform\1sdk.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\platform\ios.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\platform\login_api.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\platform\lwt.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\platform\wx.lua" />
+                    </Filter>
+                    <Filter Name="sys" Directory=".\..\Assets\StreamingAssets\game\src\sys" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\sys\client_heartbeat.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\sys\cmd.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\sys\errcode.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\sys\errcode_desc.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\sys\error_code.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\sys\time_service.lua" />
+                    </Filter>
+                    <Filter Name="unity" Directory=".\..\Assets\StreamingAssets\game\src\unity" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\unity\functions.lua" />
+                    </Filter>
+                    <Filter Name="view" Directory=".\..\Assets\StreamingAssets\game\src\view" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\BankPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\DealerPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\GameLobbyPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\GameScorePanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\JoinRoomPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\LoadingPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\LoginPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\NiuniuPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\RoomPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\RulePanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\SendInvitationPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\SettingPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\SupportPanel.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\game\src\view\TipPanel.lua" />
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter Name="lua" Directory=".\..\Assets\StreamingAssets\lua" Toggle="true" >
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\event.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\eventlib.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\events.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\list.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\ltn12.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\Main.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\mime.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\slot.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\tolua.lua" />
+                <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\typeof.lua" />
+                <Filter Name="3rd" Directory=".\..\Assets\StreamingAssets\lua\3rd" Toggle="false" >
+                    <Filter Name="cjson" Directory=".\..\Assets\StreamingAssets\lua\3rd\cjson" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\cjson\json2lua.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\cjson\lua2json.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\cjson\test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\cjson\util.lua" />
+                    </Filter>
+                    <Filter Name="luabitop" Directory=".\..\Assets\StreamingAssets\lua\3rd\luabitop" Toggle="false" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\luabitop\bitbench.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\luabitop\bittest.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\luabitop\installpath.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\luabitop\md5test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\luabitop\nsievebits.lua" />
+                        <Filter Name="doc" Directory=".\..\Assets\StreamingAssets\lua\3rd\luabitop\doc" Toggle="true" >
+                            <Filter Name="img" Directory=".\..\Assets\StreamingAssets\lua\3rd\luabitop\doc\img" Toggle="true" />
+                        </Filter>
+                    </Filter>
+                    <Filter Name="pbc" Directory=".\..\Assets\StreamingAssets\lua\3rd\pbc" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pbc\parser.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pbc\protobuf.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pbc\test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pbc\test2.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pbc\testparser.lua" />
+                    </Filter>
+                    <Filter Name="pblua" Directory=".\..\Assets\StreamingAssets\lua\3rd\pblua" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pblua\login_pb.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\pblua\person_pb.lua" />
+                    </Filter>
+                    <Filter Name="sproto" Directory=".\..\Assets\StreamingAssets\lua\3rd\sproto" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\sproto\print_r.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\sproto\sproto.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\sproto\sprotoparser.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\sproto\test.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\sproto\testall.lua" />
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\3rd\sproto\testrpc.lua" />
+                    </Filter>
+                </Filter>
+                <Filter Name="cjson" Directory=".\..\Assets\StreamingAssets\lua\cjson" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\cjson\util.lua" />
+                </Filter>
+                <Filter Name="jit" Directory=".\..\Assets\StreamingAssets\lua\jit" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\bc.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\bcsave.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_arm.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_arm64.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_arm64be.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_mips.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_mips64.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_mips64el.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_mipsel.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_ppc.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_x64.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dis_x86.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\dump.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\p.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\v.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\vmdef.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\jit\zone.lua" />
+                </Filter>
+                <Filter Name="lpeg" Directory=".\..\Assets\StreamingAssets\lua\lpeg" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\lpeg\re.lua" />
+                </Filter>
+                <Filter Name="misc" Directory=".\..\Assets\StreamingAssets\lua\misc" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\misc\functions.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\misc\misc.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\misc\strict.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\misc\utf8.lua" />
+                </Filter>
+                <Filter Name="protobuf" Directory=".\..\Assets\StreamingAssets\lua\protobuf" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\containers.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\decoder.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\descriptor.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\encoder.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\listener.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\protobuf.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\text_format.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\type_checkers.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\protobuf\wire_format.lua" />
+                </Filter>
+                <Filter Name="socket" Directory=".\..\Assets\StreamingAssets\lua\socket" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\ftp.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\headers.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\http.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\mbox.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\smtp.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\tp.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\socket\url.lua" />
+                </Filter>
+                <Filter Name="System" Directory=".\..\Assets\StreamingAssets\lua\System" Toggle="false" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\System\coroutine.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\System\Timer.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\System\ValueType.lua" />
+                    <Filter Name="Reflection" Directory=".\..\Assets\StreamingAssets\lua\System\Reflection" Toggle="true" >
+                        <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\System\Reflection\BindingFlags.lua" />
+                    </Filter>
+                </Filter>
+                <Filter Name="UnityEngine" Directory=".\..\Assets\StreamingAssets\lua\UnityEngine" Toggle="true" >
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Bounds.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Color.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\LayerMask.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Mathf.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Plane.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Quaternion.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Ray.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\RaycastHit.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Time.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Touch.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Vector2.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Vector3.lua" />
+                    <LuaFile RelativePath=".\..\Assets\StreamingAssets\lua\UnityEngine\Vector4.lua" />
+                </Filter>
+            </Filter>
+        </Filter>
+    </Filter>
+</Project>

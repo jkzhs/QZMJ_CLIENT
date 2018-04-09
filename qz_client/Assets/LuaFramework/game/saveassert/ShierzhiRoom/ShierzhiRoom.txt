@@ -1,0 +1,852 @@
+{"frames": {
+
+"1huabianjiao.png":
+{
+	"frame": {"x":2,"y":2,"w":16,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+	"sourceSize": {"w":16,"h":16}
+},
+"1lanshedikuang.png":
+{
+	"frame": {"x":20,"y":2,"w":12,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":29},
+	"sourceSize": {"w":12,"h":29}
+},
+"1touyingjiao.png":
+{
+	"frame": {"x":34,"y":2,"w":10,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":13},
+	"sourceSize": {"w":10,"h":13}
+},
+"1yazhudikuang1.png":
+{
+	"frame": {"x":46,"y":2,"w":22,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":21},
+	"sourceSize": {"w":22,"h":21}
+},
+"1yazhudikuang2.png":
+{
+	"frame": {"x":70,"y":2,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+"White.png":
+{
+	"frame": {"x":106,"y":2,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"anjian.png":
+{
+	"frame": {"x":128,"y":2,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"anjian_1.png":
+{
+	"frame": {"x":199,"y":2,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"anjian_10.png":
+{
+	"frame": {"x":270,"y":2,"w":61,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":54},
+	"sourceSize": {"w":61,"h":54}
+},
+"anjian_11.png":
+{
+	"frame": {"x":333,"y":2,"w":51,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":53},
+	"sourceSize": {"w":51,"h":53}
+},
+"anjian_2.png":
+{
+	"frame": {"x":386,"y":2,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"anjian_3.png":
+{
+	"frame": {"x":457,"y":2,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"anjian_4.png":
+{
+	"frame": {"x":528,"y":2,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"anjian_5.png":
+{
+	"frame": {"x":599,"y":2,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"anjian_9.png":
+{
+	"frame": {"x":670,"y":2,"w":58,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":59},
+	"sourceSize": {"w":58,"h":59}
+},
+"anxiazhuang.png":
+{
+	"frame": {"x":730,"y":2,"w":125,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":65},
+	"sourceSize": {"w":125,"h":65}
+},
+"anxuanzeqizi.png":
+{
+	"frame": {"x":857,"y":2,"w":125,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":65},
+	"sourceSize": {"w":125,"h":65}
+},
+"bac.png":
+{
+	"frame": {"x":2,"y":73,"w":57,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":35},
+	"sourceSize": {"w":57,"h":35}
+},
+"bank.png":
+{
+	"frame": {"x":61,"y":73,"w":60,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":35},
+	"sourceSize": {"w":60,"h":35}
+},
+"bet_head.png":
+{
+	"frame": {"x":123,"y":73,"w":142,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":200},
+	"sourceSize": {"w":142,"h":200}
+},
+"biankuang.png":
+{
+	"frame": {"x":267,"y":73,"w":86,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":63},
+	"sourceSize": {"w":86,"h":63}
+},
+"db£¬heidiban.png":
+{
+	"frame": {"x":355,"y":73,"w":28,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":67},
+	"sourceSize": {"w":28,"h":67}
+},
+"db£¬hengyinying.png":
+{
+	"frame": {"x":385,"y":73,"w":10,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":6},
+	"sourceSize": {"w":10,"h":6}
+},
+"db£¬hongdiban.png":
+{
+	"frame": {"x":397,"y":73,"w":28,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":67},
+	"sourceSize": {"w":28,"h":67}
+},
+"db£¬shuyinying.png":
+{
+	"frame": {"x":427,"y":73,"w":3,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":8},
+	"sourceSize": {"w":3,"h":8}
+},
+"db£¬zhongjianheisetoum.png":
+{
+	"frame": {"x":432,"y":73,"w":48,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":40},
+	"sourceSize": {"w":48,"h":40}
+},
+"dkziyoumoshi.png":
+{
+	"frame": {"x":482,"y":73,"w":41,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":45},
+	"sourceSize": {"w":41,"h":45}
+},
+"fabu.png":
+{
+	"frame": {"x":525,"y":73,"w":60,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":37},
+	"sourceSize": {"w":60,"h":37}
+},
+"hbfengexian.png":
+{
+	"frame": {"x":587,"y":73,"w":10,"h":4},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":4},
+	"sourceSize": {"w":10,"h":4}
+},
+"hbganlangzhi.png":
+{
+	"frame": {"x":599,"y":73,"w":34,"h":56},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":56},
+	"sourceSize": {"w":34,"h":56}
+},
+"heiche.png":
+{
+	"frame": {"x":635,"y":73,"w":69,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":77},
+	"sourceSize": {"w":69,"h":77}
+},
+"heijiang.png":
+{
+	"frame": {"x":706,"y":73,"w":72,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":67},
+	"sourceSize": {"w":72,"h":67}
+},
+"heima.png":
+{
+	"frame": {"x":780,"y":73,"w":62,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":73},
+	"sourceSize": {"w":62,"h":73}
+},
+"heipao.png":
+{
+	"frame": {"x":844,"y":73,"w":63,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":68},
+	"sourceSize": {"w":63,"h":68}
+},
+"heishi.png":
+{
+	"frame": {"x":909,"y":73,"w":70,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":62},
+	"sourceSize": {"w":70,"h":62}
+},
+"heixiang.png":
+{
+	"frame": {"x":2,"y":275,"w":71,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":76},
+	"sourceSize": {"w":71,"h":76}
+},
+"hongche.png":
+{
+	"frame": {"x":75,"y":275,"w":76,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":77},
+	"sourceSize": {"w":76,"h":77}
+},
+"hongma.png":
+{
+	"frame": {"x":153,"y":275,"w":81,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":74},
+	"sourceSize": {"w":81,"h":74}
+},
+"hongpao.png":
+{
+	"frame": {"x":236,"y":275,"w":81,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":70},
+	"sourceSize": {"w":81,"h":70}
+},
+"hongshi.png":
+{
+	"frame": {"x":319,"y":275,"w":79,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":70},
+	"sourceSize": {"w":79,"h":70}
+},
+"hongshuai.png":
+{
+	"frame": {"x":400,"y":275,"w":64,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":68},
+	"sourceSize": {"w":64,"h":68}
+},
+"hongxiang.png":
+{
+	"frame": {"x":466,"y":275,"w":71,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":70},
+	"sourceSize": {"w":71,"h":70}
+},
+"jianbianbaibian1.png":
+{
+	"frame": {"x":539,"y":275,"w":83,"h":2},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":2},
+	"sourceSize": {"w":83,"h":2}
+},
+"ju.png":
+{
+	"frame": {"x":624,"y":275,"w":65,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":59},
+	"sourceSize": {"w":65,"h":59}
+},
+"kai.png":
+{
+	"frame": {"x":691,"y":275,"w":59,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":49},
+	"sourceSize": {"w":59,"h":49}
+},
+"kangxitouxiang.png":
+{
+	"frame": {"x":752,"y":275,"w":102,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":102},
+	"sourceSize": {"w":102,"h":102}
+},
+"kuang.png":
+{
+	"frame": {"x":856,"y":275,"w":48,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":87},
+	"sourceSize": {"w":48,"h":87}
+},
+"kuang_1.png":
+{
+	"frame": {"x":906,"y":275,"w":44,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":29},
+	"sourceSize": {"w":44,"h":29}
+},
+"lishijilu.png":
+{
+	"frame": {"x":952,"y":275,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+},
+"liu.png":
+{
+	"frame": {"x":2,"y":379,"w":66,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":60},
+	"sourceSize": {"w":66,"h":60}
+},
+"liuju_head.png":
+{
+	"frame": {"x":70,"y":379,"w":101,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":200},
+	"sourceSize": {"w":101,"h":200}
+},
+"pai.png":
+{
+	"frame": {"x":173,"y":379,"w":59,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":52},
+	"sourceSize": {"w":59,"h":52}
+},
+"paidikuang.png":
+{
+	"frame": {"x":234,"y":379,"w":43,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":27},
+	"sourceSize": {"w":43,"h":27}
+},
+"playlist.png":
+{
+	"frame": {"x":279,"y":379,"w":117,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":117,"h":36},
+	"sourceSize": {"w":117,"h":36}
+},
+"please.png":
+{
+	"frame": {"x":398,"y":379,"w":59,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":52},
+	"sourceSize": {"w":59,"h":52}
+},
+"qiang.png":
+{
+	"frame": {"x":459,"y":379,"w":59,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":51},
+	"sourceSize": {"w":59,"h":51}
+},
+"qzbaiquang.png":
+{
+	"frame": {"x":520,"y":379,"w":98,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":95},
+	"sourceSize": {"w":98,"h":95}
+},
+"qzdimeizimeiquang.png":
+{
+	"frame": {"x":620,"y":379,"w":114,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":115},
+	"sourceSize": {"w":114,"h":115}
+},
+"qzkaijiangdikuang.png":
+{
+	"frame": {"x":736,"y":379,"w":86,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":80},
+	"sourceSize": {"w":86,"h":80}
+},
+"qzkaijianggaiqilaii.png":
+{
+	"frame": {"x":824,"y":379,"w":88,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":84},
+	"sourceSize": {"w":88,"h":84}
+},
+"qzkaijianggaizi.png":
+{
+	"frame": {"x":914,"y":379,"w":87,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":79},
+	"sourceSize": {"w":87,"h":79}
+},
+"renshukuang.png":
+{
+	"frame": {"x":2,"y":581,"w":74,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":46},
+	"sourceSize": {"w":74,"h":46}
+},
+"rule.png":
+{
+	"frame": {"x":78,"y":581,"w":59,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":35},
+	"sourceSize": {"w":59,"h":35}
+},
+"shangzhuang_1.png":
+{
+	"frame": {"x":139,"y":581,"w":78,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":96},
+	"sourceSize": {"w":78,"h":96}
+},
+"shangzhuang_2.png":
+{
+	"frame": {"x":219,"y":581,"w":76,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":78},
+	"sourceSize": {"w":76,"h":78}
+},
+"shangzhuang_3.png":
+{
+	"frame": {"x":297,"y":581,"w":114,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":113},
+	"sourceSize": {"w":114,"h":113}
+},
+"share.png":
+{
+	"frame": {"x":413,"y":581,"w":59,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":35},
+	"sourceSize": {"w":59,"h":35}
+},
+"shizhong.png":
+{
+	"frame": {"x":474,"y":581,"w":105,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":90},
+	"sourceSize": {"w":105,"h":90}
+},
+"shurukuangkuang_2.png":
+{
+	"frame": {"x":581,"y":581,"w":74,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":45},
+	"sourceSize": {"w":74,"h":45}
+},
+"shurukuangkuang_3.png":
+{
+	"frame": {"x":657,"y":581,"w":61,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":68},
+	"sourceSize": {"w":61,"h":68}
+},
+"tb£¬zhongjianxiazhuqu.png":
+{
+	"frame": {"x":720,"y":581,"w":41,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":30},
+	"sourceSize": {"w":41,"h":30}
+},
+"tip_bg.png":
+{
+	"frame": {"x":763,"y":581,"w":141,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":38},
+	"sourceSize": {"w":141,"h":38}
+},
+"video_bg.png":
+{
+	"frame": {"x":906,"y":581,"w":60,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":59},
+	"sourceSize": {"w":60,"h":59}
+},
+"village.png":
+{
+	"frame": {"x":968,"y":581,"w":50,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":49},
+	"sourceSize": {"w":50,"h":49}
+},
+"wanjialiebiaokuang.png":
+{
+	"frame": {"x":2,"y":696,"w":100,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":70},
+	"sourceSize": {"w":100,"h":70}
+},
+"wanjialiebiaozi.png":
+{
+	"frame": {"x":104,"y":696,"w":199,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":199,"h":49},
+	"sourceSize": {"w":199,"h":49}
+},
+"xg£¬diguang.png":
+{
+	"frame": {"x":305,"y":696,"w":55,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":19},
+	"sourceSize": {"w":55,"h":19}
+},
+"xia.png":
+{
+	"frame": {"x":362,"y":696,"w":55,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":48},
+	"sourceSize": {"w":55,"h":48}
+},
+"yaoqing.png":
+{
+	"frame": {"x":419,"y":696,"w":61,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":37},
+	"sourceSize": {"w":61,"h":37}
+},
+"yindao.png":
+{
+	"frame": {"x":482,"y":696,"w":92,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":79},
+	"sourceSize": {"w":92,"h":79}
+},
+"youbiandikuang.png":
+{
+	"frame": {"x":576,"y":696,"w":55,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":92},
+	"sourceSize": {"w":55,"h":92}
+},
+"youbiandikuang_chouma_1.png":
+{
+	"frame": {"x":633,"y":696,"w":78,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":78},
+	"sourceSize": {"w":78,"h":78}
+},
+"youbiandikuang_chouma_2.png":
+{
+	"frame": {"x":713,"y":696,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80}
+},
+"youbiandikuang_chouma_3.png":
+{
+	"frame": {"x":795,"y":696,"w":79,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":79},
+	"sourceSize": {"w":79,"h":79}
+},
+"youbiandikuang_chouma_4.png":
+{
+	"frame": {"x":876,"y":696,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80}
+},
+"youbiandikuang_chouma_5.png":
+{
+	"frame": {"x":2,"y":790,"w":79,"h":79},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":79},
+	"sourceSize": {"w":79,"h":79}
+},
+"youbiandikuang_chouma_6.png":
+{
+	"frame": {"x":83,"y":790,"w":80,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":78},
+	"sourceSize": {"w":80,"h":78}
+},
+"youbiandikuang_choumakuang_qingchu.png":
+{
+	"frame": {"x":165,"y":790,"w":101,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":64},
+	"sourceSize": {"w":101,"h":64}
+},
+"youbiandikuang_choumakuang_queding.png":
+{
+	"frame": {"x":268,"y":790,"w":101,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":64},
+	"sourceSize": {"w":101,"h":64}
+},
+"youbiandikuang_huadonganshusekuang.png":
+{
+	"frame": {"x":371,"y":790,"w":145,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":94},
+	"sourceSize": {"w":145,"h":94}
+},
+"youbiandikuang_touxiang.png":
+{
+	"frame": {"x":518,"y":790,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61}
+},
+"youbiandikuang_touxiang_jinbi.png":
+{
+	"frame": {"x":581,"y":790,"w":34,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":42},
+	"sourceSize": {"w":34,"h":42}
+},
+"youbiandikuang_touxiang_jinerkuang.png":
+{
+	"frame": {"x":617,"y":790,"w":38,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":42},
+	"sourceSize": {"w":38,"h":42}
+},
+"youbiandikuang_touxiang_yinbi.png":
+{
+	"frame": {"x":657,"y":790,"w":34,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":39},
+	"sourceSize": {"w":34,"h":39}
+},
+"zdb£¬dikuangjinbianjianbian1.png":
+{
+	"frame": {"x":693,"y":790,"w":6,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":6,"h":102},
+	"sourceSize": {"w":6,"h":102}
+},
+"zdb£¬dikuangjinbianjianbian2.png":
+{
+	"frame": {"x":701,"y":790,"w":7,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":141},
+	"sourceSize": {"w":7,"h":141}
+},
+"zdb£¬dikuangjinbianjianbian3.png":
+{
+	"frame": {"x":710,"y":790,"w":7,"h":118},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":118},
+	"sourceSize": {"w":7,"h":118}
+},
+"zhu.png":
+{
+	"frame": {"x":719,"y":790,"w":59,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":50},
+	"sourceSize": {"w":59,"h":50}
+},
+"zhuan.png":
+{
+	"frame": {"x":780,"y":790,"w":59,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":51},
+	"sourceSize": {"w":59,"h":51}
+},
+"zhuangjiatiexiao.png":
+{
+	"frame": {"x":841,"y":790,"w":106,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":108},
+	"sourceSize": {"w":106,"h":108}
+},
+"zilishijilu.png":
+{
+	"frame": {"x":2,"y":933,"w":122,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":37},
+	"sourceSize": {"w":122,"h":37}
+},
+"zi£¬dingge.png":
+{
+	"frame": {"x":126,"y":933,"w":69,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":36},
+	"sourceSize": {"w":69,"h":36}
+},
+"zi£¬hei.png":
+{
+	"frame": {"x":197,"y":933,"w":35,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":36},
+	"sourceSize": {"w":35,"h":36}
+},
+"zi£¬hong.png":
+{
+	"frame": {"x":234,"y":933,"w":40,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":34},
+	"sourceSize": {"w":40,"h":34}
+},
+"zi£¬xiage.png":
+{
+	"frame": {"x":276,"y":933,"w":70,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":36},
+	"sourceSize": {"w":70,"h":36}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "ShierzhiRoom.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8c91caebc255a750d1810ed26019f82d:1/1$"
+}
+}

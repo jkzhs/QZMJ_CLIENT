@@ -1,0 +1,172 @@
+{"frames": {
+
+"anyijianglingqu.png":
+{
+	"frame": {"x":3,"y":3,"w":156,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":70},
+	"sourceSize": {"w":156,"h":70}
+},
+"anyijianshanchu.png":
+{
+	"frame": {"x":162,"y":3,"w":158,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":71},
+	"sourceSize": {"w":158,"h":71}
+},
+"dkbiti.png":
+{
+	"frame": {"x":323,"y":3,"w":84,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":84,"h":83},
+	"sourceSize": {"w":84,"h":83}
+},
+"dkjiangpintubiao.png":
+{
+	"frame": {"x":410,"y":3,"w":14,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":86},
+	"sourceSize": {"w":14,"h":86}
+},
+"dkliaotiandikuang.png":
+{
+	"frame": {"x":427,"y":3,"w":30,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":28},
+	"sourceSize": {"w":30,"h":28}
+},
+"dkyouxiangxingxi1.png":
+{
+	"frame": {"x":460,"y":3,"w":16,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":14},
+	"sourceSize": {"w":16,"h":14}
+},
+"dkyouxiangxingxi2.png":
+{
+	"frame": {"x":479,"y":3,"w":36,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":37},
+	"sourceSize": {"w":36,"h":37}
+},
+"tabhaoyouyouxiang.png":
+{
+	"frame": {"x":518,"y":3,"w":204,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":65},
+	"sourceSize": {"w":204,"h":65}
+},
+"tabhaoyouyouxiang2.png":
+{
+	"frame": {"x":725,"y":3,"w":147,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":39},
+	"sourceSize": {"w":147,"h":39}
+},
+"tabianghua.png":
+{
+	"frame": {"x":875,"y":3,"w":98,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":92},
+	"sourceSize": {"w":98,"h":92}
+},
+"tabianghua2.png":
+{
+	"frame": {"x":3,"y":98,"w":98,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":92},
+	"sourceSize": {"w":98,"h":92}
+},
+"tabxitongyouxiang1.png":
+{
+	"frame": {"x":104,"y":98,"w":204,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":65},
+	"sourceSize": {"w":204,"h":65}
+},
+"tabxitongyouxiang2.png":
+{
+	"frame": {"x":311,"y":98,"w":147,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":147,"h":39},
+	"sourceSize": {"w":147,"h":39}
+},
+"wangjiazidedikuang.png":
+{
+	"frame": {"x":461,"y":98,"w":19,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":29},
+	"sourceSize": {"w":19,"h":29}
+},
+"youxiangtubiao11.png":
+{
+	"frame": {"x":483,"y":98,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":73},
+	"sourceSize": {"w":66,"h":73}
+},
+"youxiangtubiao2.png":
+{
+	"frame": {"x":552,"y":98,"w":67,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":67,"h":60},
+	"sourceSize": {"w":67,"h":60}
+},
+"youxiangxinxi.png":
+{
+	"frame": {"x":622,"y":98,"w":144,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":144,"h":37},
+	"sourceSize": {"w":144,"h":37}
+},
+"zhongjianfengexian.png":
+{
+	"frame": {"x":769,"y":98,"w":94,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":18},
+	"sourceSize": {"w":94,"h":18}
+},
+"zhongjiangjiangbian1.png":
+{
+	"frame": {"x":3,"y":193,"w":551,"h":3},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":551,"h":3},
+	"sourceSize": {"w":551,"h":3}
+},
+"zhongjiangjiangbian3.png":
+{
+	"frame": {"x":557,"y":193,"w":361,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":361,"h":17},
+	"sourceSize": {"w":361,"h":17}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Mail.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fbce08d92a908605ed54360c80f78caf:1/1$"
+}
+}

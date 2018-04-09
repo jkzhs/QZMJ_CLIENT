@@ -1,0 +1,180 @@
+{"frames": {
+
+"White.png":
+{
+	"frame": {"x":233,"y":244,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"anjian.png":
+{
+	"frame": {"x":2,"y":97,"w":192,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":93},
+	"sourceSize": {"w":192,"h":93}
+},
+"anjian_1.png":
+{
+	"frame": {"x":2,"y":2,"w":192,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":93},
+	"sourceSize": {"w":192,"h":93}
+},
+"anjian_3.png":
+{
+	"frame": {"x":2,"y":192,"w":158,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":71},
+	"sourceSize": {"w":158,"h":71}
+},
+"biaoge_1.png":
+{
+	"frame": {"x":239,"y":128,"w":9,"h":3},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":3},
+	"sourceSize": {"w":9,"h":3}
+},
+"dagou.png":
+{
+	"frame": {"x":196,"y":2,"w":57,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":58},
+	"sourceSize": {"w":57,"h":58}
+},
+"dagoukuang.png":
+{
+	"frame": {"x":196,"y":62,"w":50,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":47},
+	"sourceSize": {"w":50,"h":47}
+},
+"dkyouxiangxingxi1.png":
+{
+	"frame": {"x":238,"y":158,"w":16,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":14},
+	"sourceSize": {"w":16,"h":14}
+},
+"dkyouxiangxingxi2.png":
+{
+	"frame": {"x":72,"y":339,"w":36,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":37},
+	"sourceSize": {"w":36,"h":37}
+},
+"fangkadidk.png":
+{
+	"frame": {"x":162,"y":221,"w":20,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":21},
+	"sourceSize": {"w":20,"h":21}
+},
+"fangkatbyaoshi.png":
+{
+	"frame": {"x":196,"y":206,"w":38,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":36},
+	"sourceSize": {"w":38,"h":36}
+},
+"jinbi.png":
+{
+	"frame": {"x":196,"y":158,"w":40,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":46},
+	"sourceSize": {"w":40,"h":46}
+},
+"shurukuang.png":
+{
+	"frame": {"x":239,"y":111,"w":15,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":15},
+	"sourceSize": {"w":15,"h":15}
+},
+"yinbi.png":
+{
+	"frame": {"x":196,"y":111,"w":41,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":45},
+	"sourceSize": {"w":41,"h":45}
+},
+"zi.png":
+{
+	"frame": {"x":140,"y":280,"w":109,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":109,"h":36},
+	"sourceSize": {"w":109,"h":36}
+},
+"zi_1.png":
+{
+	"frame": {"x":140,"y":318,"w":102,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":35},
+	"sourceSize": {"w":102,"h":35}
+},
+"zi_15.png":
+{
+	"frame": {"x":2,"y":339,"w":68,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":34},
+	"sourceSize": {"w":68,"h":34}
+},
+"zi_4.png":
+{
+	"frame": {"x":2,"y":302,"w":136,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":35},
+	"sourceSize": {"w":136,"h":35}
+},
+"zi_5.png":
+{
+	"frame": {"x":2,"y":265,"w":136,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":35},
+	"sourceSize": {"w":136,"h":35}
+},
+"zi_6.png":
+{
+	"frame": {"x":162,"y":192,"w":32,"h":27},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":27},
+	"sourceSize": {"w":32,"h":27}
+},
+"zi_8.png":
+{
+	"frame": {"x":162,"y":244,"w":69,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":34},
+	"sourceSize": {"w":69,"h":34}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "People.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5ed6e5ec680789761acd266985ebbb3b:1/1$"
+}
+}

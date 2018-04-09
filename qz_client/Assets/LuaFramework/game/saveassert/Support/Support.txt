@@ -1,0 +1,44 @@
+{"frames": {
+
+"White.png":
+{
+	"frame": {"x":39,"y":27,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+},
+"anjian.png":
+{
+	"frame": {"x":2,"y":2,"w":35,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":62},
+	"sourceSize": {"w":35,"h":62}
+},
+"paijudikuang.png":
+{
+	"frame": {"x":58,"y":2,"w":50,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":23},
+	"sourceSize": {"w":50,"h":23}
+},
+"paijudikuang_1.png":
+{
+	"frame": {"x":2,"y":66,"w":54,"h":53},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":53},
+	"sourceSize": {"w":54,"h":53}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Support.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:af6d21fe4df08bae1d9eb586cc9502a2:1/1$"
+}
+}
