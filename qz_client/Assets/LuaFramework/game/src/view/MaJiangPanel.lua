@@ -3,6 +3,7 @@ local transform;
 local mgr_room = global.player:get_mgr("room")
 local mgr_mj= global.player:get_mgr("mj")
 local const = global.const
+local i18n = global.i18n
 MaJiangPanel = {};
 local this = MaJiangPanel;
 local mt = this
@@ -359,6 +360,15 @@ function mt.OnBackClick(value)
 	-- 	global._view:hideLoading();
     -- end)
 end 
+function mt.sure_exit()
+    this.is_play_card_anima = nil 
+    local str =i18n.TID_MJ_NOT_ERROR_STATUS
+    global._view:support().Awake(str,function ()
+        soundMgr:PlaySound("go")
+        this.OnBackClick(this.ui.isGameRoom)
+    end);
+end 
+
 function mt.Force_Exit()
     local value = nil 
     if this.ui ~= nil then 

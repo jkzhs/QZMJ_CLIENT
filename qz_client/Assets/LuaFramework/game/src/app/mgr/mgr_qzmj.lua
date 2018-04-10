@@ -70,6 +70,7 @@ local BROADCAST_TYPE_FORCEEXIT           = 1  --强制退出房间
 local BROADCAST_TYPE_EXIT                = 2  --退出房间
 local BROADCAST_TYPE_CANCEL_PREPARE      = 3  --取消准备
 local BROADCAST_TYPE_PREPARE             = 4  --准备
+local BROADCAST_TYPE_SUREEXIT            = 5  --确定状态离开房间
 
 local UPDATE_BET_DATA = nil 
 local PLAY_OUT_DATA = nil 

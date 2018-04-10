@@ -75,6 +75,7 @@ local BROADCAST_TYPE_FORCEEXIT           = 1  --强制退出房间
 local BROADCAST_TYPE_EXIT                = 2  --退出房间
 local BROADCAST_TYPE_CANCEL_PREPARE      = 3  --取消准备
 local BROADCAST_TYPE_PREPARE             = 4  --准备
+local BROADCAST_TYPE_SUREEXIT            = 5  --确定状态离开房间
 
 local UPDATE_BET_DATA = nil 
 local PLAY_OUT_DATA = nil 
@@ -754,7 +755,7 @@ end
     end 
 ]]
 
-function mt:on_net_update_data(resp)
+function mt:on_net_update_data(resp)   
     -- print("MGRMJ:on_net_update_data")
     local data = {}
     local ec = resp.errcode
@@ -903,7 +904,8 @@ function mt:on_net_broadcast(resp)
                 end 
                 view.UpdatePlayerPrepare(data)
             end
-            
+        elseif type == BROADCAST_TYPE_SUREEXIT then -- 5 --确定状态离开房间
+            view:sure_exit()            
         end 
         
     end 
