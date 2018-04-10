@@ -25,6 +25,7 @@
         repeated _id angang_list                 =1; //暗杠信息 
         repeated _id minggang_list               =2; //明杠信息 
         repeated _id pengchi_list                =3; //碰吃信息 
+        repeated _id ting_list                   =4; //听牌信息
     }
     message _id {
         optional int32 id                  =1;
@@ -99,9 +100,6 @@ local function gen_base_data(info)
     if info.play_seatid and info.play_seatid~=0 then 
         data.play_seatid = info.play_seatid 
     end 
-    if info.goldid and info.goldid~=0 then 
-        data.goldid = info.goldid
-    end 
     if info.cards_amount  then 
         data.cards_amount = info.cards_amount
     end 
@@ -145,6 +143,9 @@ local function gen_play_users(info,is_req_data,game_status)
                         if cphg_list.pengchi_list then 
                             d.pengchi_list = cphg_list.pengchi_list
                         end 
+                        if cphg_list.ting_list then 
+                            d.ting_list = cphg_list.ting_list
+                        end 
                     end 
                 end 
                 if v.out_list then 
@@ -169,7 +170,6 @@ local function gen_play_users(info,is_req_data,game_status)
                 end
             end 
         end
-
         table.insert(data,d)        
     end 
     return data
@@ -260,6 +260,9 @@ local function gen_add_flower(list)
 end 
 --return true or false
 local function gen_hu(value)
+    if type(value) ~= "number" then 
+        return false
+    end 
     if value == 1 then
         return true 
     else 
@@ -294,23 +297,6 @@ end
 --获取信息
 --[[ 
      resp =
-    ------大厅等待玩家   
-    optional int32 game_status
-    optional int32 over_time 
-    optional int32 play_type 
-    optional int32 cards_amount
-    optional int32 bet_coin
-    repeated _play_user play_users           [1]庄家 （如果有）
-        play_users ={
-            player_name
-            playerid
-            param1                           头像
-            player_money
-            seatid
-            if game_status == STATUS_FREE or STATUS_END then 
-                param2                       1、准备状态 
-            end 
-        }
     ------正常房间玩家   
     optional int32 game_status
     optional int32 over_time 
@@ -328,29 +314,31 @@ end
             if game_status == STATUS_FREE or STATUS_END then 
                 param2                       1、准备状态 
             end 
-            if game_status >= STATUS_PLAY and < STATUS_END then 
+            if game_status >= STATUS_PLAY and <= STATUS_END then 
                _card_list hand_list 
                _card_list out_list
                _cphg_list cphg_list
-               param2                        出牌人的座位id
+                    cphg_list = {
+                        repeated _id angang_list                 =1; //暗杠信息 
+                        repeated _id minggang_list               =2; //明杠信息 
+                        repeated _id pengchi_list                =3; //碰吃信息 
+                        repeated _id ting_list                   =4; //听牌信息
+                    }
+               
             end 
 
         }
-    if self.game_status >= STATUS_PREPARE then 
-        optional int32 goldid                金牌ID
-        repeated _flower_list flower_list    花区信息 
+    if self.game_status >= status_play and <= status_buy then 
+        param2                        出牌人的座位id
     end 
     if game_status == STATUS_WAIT then 
         repeated _id dices                   摇骰子结果
     elseif game_status == STATUS_PREPARE then 
         repeated _card_list deal_list        发牌信息
         repeated _card_list hand_list        手牌信息
-        repeated _flower_list add_flower     补花信息 
     elseif game_status == STATUS_PLAY then 	
         optional int32 param1                1、吃碰状态
         optional int32 draw_cardid           抽牌ID
-        repeated _flower_list add_flower     补花信息 
-        repeated _card_list deal_list        暗杆牌的信息
         optional int32 can_hu                能不能胡 1 可以 0 不可以
     elseif game_status == STATUS_CPHG then 
         optional int32 play_seatid           出牌人座位ID
@@ -365,20 +353,16 @@ function mt:req_data(cb)
         -- dump(resp)
         local ec = resp.errcode
         if ec == 0 then 
-            local data = gen_base_data(resp)
-            -- print ("MGR_MJ:req_data:play_users:seatid:",resp.play_users[1].seatid)            
+            local data = gen_base_data(resp)       
             data.play_users = gen_play_users(resp.play_users,true,data.game_status)
             if data.game_status then 
                 if data.game_status >= const.MJ_STATUS_PREPARE then 
                     if data.play_users then                     
                         data.banker = resp.play_users[1]
                     end 
-                    if #resp.flower_list > 0 then 
-                        data.flower_list = resp.flower_list--{{seatid,posid,cardid}}
-                    end 
                 end 
                 if data.game_status >= const.MJ_STATUS_PLAY and 
-                data.game_status <  const.MJ_STATUS_END then 
+                data.game_status <  const.MJ_STATUS_BUY then 
                     data.cur_out_seatid = resp.param2 
                 end 
             end 
@@ -386,38 +370,41 @@ function mt:req_data(cb)
             elseif data.game_status == const.MJ_STATUS_WAIT then 
                 if resp.dices then 
                     if resp.dices[1] then 
-                        -- print("resp.dices[1]",resp.dices[1].id)
                         data.dices = resp.dices
                     end 
                 end 
             elseif data.game_status == const.MJ_STATUS_PREPARE then
-                -- data.banker = resp.play_users[1]
                 data.hand_list = gen_card_list(resp.hand_list)--{[posid]=cardid}
                 data.deal_list = gen_card_list(resp.deal_list)--{[posid]=cardid}
-                data.add_flower_data = gen_add_flower(resp.add_flower)--{[posid]={cardid,cardid}}
-            elseif data.game_status == const.MJ_STATUS_PLAY then
-                data.add_flower_data = gen_add_flower(resp.add_flower)
-                data.angang_list = gen_CPHG(resp.deal_list,GEN_TYPE_ANGANG,true)
+            elseif data.game_status == const.MJ_STATUS_PLAY then                
                 data.drawCard_id = resp.draw_cardid
                 data.can_hu = gen_hu(resp.can_hu)
                 if resp.param1  then --吃 碰状态
                     data.play_status = resp.param1
                 end 
-            elseif data.game_status == const.MJ_STATUS_CPHG then
-                if resp.can_hu and resp.can_hu>0 then 
-                    data.can_hu = resp.can_hu
+                if resp.deal_list then 
+                    data.angang_list = gen_CPHG(resp.deal_list,GEN_TYPE_ANGANG,true)--{{[posid]=cardid,},}
                 end 
-                -- print("MJMGR:CAN_HU:",data.can_hu)
+                if resp.param1_list then 
+                    data.gang_list = gen_CPHG(resp.param1_list,GEN_TYPE_GANG,false)--{{[posid]=cardid,},}-- 补杠
+                end  
+                if resp.dices then 
+                    data.ting_list = resp.dices  -- 听牌信息
+                end 
+
+            elseif data.game_status == const.MJ_STATUS_CPHG then
+                data.can_hu = gen_hu(resp.can_hu)
                 if resp.deal_list then 
                     data.gang_list = gen_CPHG(resp.deal_list,GEN_TYPE_GANG,true)--{{[posid]=cardid,},}
                 end 
                 if resp.param1_list and #resp.param1_list > 0 then 
                     data.pen_list = gen_CPHG(resp.param1_list,GEN_TYPE_PENG,true)
+                end
+                if resp.dices then 
+                    data.ting_list = resp.dices  -- 听牌信息
                 end 
-                if resp.param2_list and #resp.param2_list>0 then 
-                   
-                    data.chi_list = gen_CPHG(resp.param2_list,GEN_TYPE_CHI,true)
-                end 
+            elseif data.game_status == const.MJ_STATUS_BUY then 
+                -- todo 
             end 
             if cb then 
                 cb(data)
@@ -700,7 +687,7 @@ end
     elseif game_status == STATUS_PREPARE then 
         --公开数据
         repeated _play_user play_users           =6;  //只有庄家信息[1]
-        optional int32 goldid                    =8;  //金牌ID
+     -------optional int32 goldid                    =8;  //金牌ID------
         repeated _flower_list flower_list        =9;  //花区信息 （其他人播放补花动画用）
         --私人数据
         repeated _card_list deal_list            =10; //发牌信息
@@ -747,7 +734,6 @@ end
 ]]
 
 function mt:on_net_update_data(resp)
-    -- print("MGRMJ:on_net_update_data")
     local data = {}
     local ec = resp.errcode
     if ec == 0 then 
@@ -762,60 +748,38 @@ function mt:on_net_update_data(resp)
             end 
         elseif data.game_status == const.MJ_STATUS_PREPARE then--准备
             data.banker = resp.play_users[1]
-            -- print("MGRMJ:on_net_update_data:BANKER SEATID:",data.banker.seatid)
-            data.hand_list = gen_card_list(resp.hand_list)--{[posid]=cardid}
-            data.deal_list = gen_card_list(resp.deal_list)--{[posid]=cardid}
-            data.add_flower_data = gen_add_flower(resp.add_flower)--{[posid]={cardid,cardid}}
-            -- for k,v in pairs(data.add_flower_data)do 
-            --     print("MGRMJ:NET UPDATE:ADD FLOWER DATA:",v.poscard_id)
-            -- end 
-            if #resp.flower_list > 0 then 
-                data.flower_list = resp.flower_list--{{seatid,posid,cardid}}
-            end 
+            data.hand_list = gen_card_list(resp.hand_list)--{[posid]=cardid}--手牌
+            data.deal_list = gen_card_list(resp.deal_list)--{[posid]=cardid}--发牌
         elseif data.game_status == const.MJ_STATUS_PLAY then--出牌
-            if #resp.flower_list>0 then 
-                data.flower_list = resp.flower_list --{{seatid,posid,cardid}}
-            end 
-            data.add_flower_data = gen_add_flower(resp.add_flower)
-            data.angang_list = gen_CPHG(resp.deal_list,GEN_TYPE_ANGANG,true)--{{[posid]=cardid,},}
-            -- 补杠 
-            data.gang_list = gen_CPHG(resp.param1_list,GEN_TYPE_GANG,false)--{{[posid]=cardid,},}
-            data.drawCard_id = resp.draw_cardid
-            data.can_hu = gen_hu(resp.can_hu)
-
             if resp.param1  then --吃 碰状态
                 data.play_status = resp.param1
             end 
-            if resp.param2_list and #resp.param2_list>0 then -- 游金
-                data.youjing_list = {} -- {[posid]= cardid,}
-                for k,v in pairs (resp.param2_list)do 
-                    data.youjing_list[v.posid] = v.cardid 
-                end 
+            if resp.deal_list then 
+                data.angang_list = gen_CPHG(resp.deal_list,GEN_TYPE_ANGANG,true)--{{[posid]=cardid,},}
             end 
+            if resp.param1_list then 
+                data.gang_list = gen_CPHG(resp.param1_list,GEN_TYPE_GANG,false)--{{[posid]=cardid,},}-- 补杠
+            end  
+            if resp.dices then 
+                data.ting_list = resp.dices  -- 听牌信息
+            end 
+            data.drawCard_id = resp.draw_cardid
+            data.can_hu = gen_hu(resp.can_hu)
 
+           
         elseif data.game_status == const.MJ_STATUS_CPHG then--吃碰胡杠
             -- data.play_seatid = resp.play_seatid
-            if resp.can_hu and resp.can_hu>0 then 
-                data.can_hu = resp.can_hu
-            end 
+            data.can_hu = gen_hu(resp.can_hu)
             -- print("MJMGR:CAN_HU:",data.can_hu)
             if resp.deal_list then 
                 data.gang_list = gen_CPHG(resp.deal_list,GEN_TYPE_GANG,true)--{{[posid]=cardid,},}
             end 
             if resp.param1_list and #resp.param1_list > 0 then 
                 data.pen_list = gen_CPHG(resp.param1_list,GEN_TYPE_PENG,true)
+            end
+            if resp.dices then 
+                data.ting_list = resp.dices  -- 听牌信息
             end 
-            if resp.param2_list and #resp.param2_list>0 then 
-               
-                data.chi_list = gen_CPHG(resp.param2_list,GEN_TYPE_CHI,true)
-            end     
-        elseif data.game_status == const.MJ_STATUS_YOUJING then
-            if #resp.flower_list>0 then 
-                data.flower_list = resp.flower_list --{{seatid,posid,cardid}}
-            end 
-            data.add_flower_data = gen_add_flower(resp.add_flower)
-            data.drawCard_id = resp.draw_cardid
-            data.can_hu = gen_hu(resp.can_hu)
         elseif data.game_status == const.MJ_STATUS_END then
             if resp.result_list then 
                 data.result_list = resp.result_list
@@ -828,7 +792,7 @@ function mt:on_net_update_data(resp)
             end
         end   
         
-        local view = global._view:getViewBase("MaJiang")
+        local view = global._view:getViewBase("ZQMaJiang")
         if view ~= nil then 
             UPDATE_BET_DATA = data
             view.SetBetState(data)
