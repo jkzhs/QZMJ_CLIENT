@@ -460,7 +460,7 @@ function mt:req_cancel_prepare(playerid,cb)
     end)
 end 
 --出牌
-function mt:rep_play_out_card(posid,cardid,playerid,cb)
+function mt:req_play_out_card(posid,cardid,playerid,cb)
     global.player:call("CS_OP_ROOM",{gameid = gameid,op =11,param1=posid,param2=playerid,param3 = cardid},function(resp)
         local ec = resp.errcode
         if ec == 0 then 
@@ -475,7 +475,7 @@ function mt:rep_play_out_card(posid,cardid,playerid,cb)
     end)
 end
 --CPHG
-function mt:rep_CPHG(playerid,type,id,cb)
+function mt:req_CPHG(playerid,type,id,cb)
     global.player:call("CS_OP_ROOM",{gameid = gameid,op = 12,param1=type,param2=playerid,param3=id},function(resp)
         local ec = resp.errcode
         if ec == 0 then 

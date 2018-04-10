@@ -501,7 +501,7 @@ end
 function mt.PlayCard(posID,cardid,error_call)
     global._view:showLoading()
     local playerid = this.GetPlayerID()
-    mgr_mj:rep_play_out_card(posID,cardid,playerid,function(ec)
+    mgr_mj:req_play_out_card(posID,cardid,playerid,function(ec)
         global._view:hideLoading()
         if ec ~=0 then 
             this.ui.is_play_card_anima = nil
@@ -517,7 +517,7 @@ end
 function mt.AnGang(id)
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_ANGANG,id,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_ANGANG,id,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
         end 
@@ -528,7 +528,7 @@ end
 function mt.CHI(id)
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_CHI,id,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_CHI,id,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
             -- this.ui.OnAnGangPlayCallBack(data)
@@ -539,7 +539,7 @@ end
 function mt.PENG()
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_PENG,nil,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_PENG,nil,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
             -- this.ui.OnAnGangPlayCallBack(data)
@@ -550,7 +550,7 @@ end
 function mt.GANG()
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_GANG,nil,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_GANG,nil,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
             -- this.ui.OnAnGangPlayCallBack(data)
@@ -561,7 +561,7 @@ end
 function mt.BuGang()
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_BUGANG,nil,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_BUGANG,nil,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
             -- this.ui.OnAnGangPlayCallBack(data)
@@ -572,7 +572,7 @@ end
 function mt.HU()
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_HU,nil,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_HU,nil,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
             -- this.ui.OnAnGangPlayCallBack(data)
@@ -583,7 +583,7 @@ end
 function mt.YOUJING(id)
     global._view:showLoading()
     local playerid = this.GetPlayerID()    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_YOUJING,id,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_YOUJING,id,function(data)
         global._view:hideLoading()
         if this.ui ~= nil then 
             -- this.ui.OnAnGangPlayCallBack(data)
@@ -595,7 +595,7 @@ function mt.PassCPHG()
     global._view:showLoading()
     local playerid = this.GetPlayerID() 
     local id = nil    
-    mgr_mj:rep_CPHG(playerid,CPHG_TYPE_PASS,id,function(data)
+    mgr_mj:req_CPHG(playerid,CPHG_TYPE_PASS,id,function(data)
         global._view:hideLoading()
         local ec = data.errcode
         if this.ui ~= nil and ec == 0 then 
