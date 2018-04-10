@@ -37,15 +37,10 @@
     }
     message _result_list{
         repeated _play_user play_users           =1; //玩家信息
-        repeated _id hand_list                   =2; //手牌信息 
-        repeated _id flower_list                 =3; //花牌信息 
-        repeated _id angang_list                 =4; //暗杠信息 
-        repeated _id minggang_list               =5; //明杠信息 
-        repeated _id pengchi_list                =6; //碰吃信息 
-        optional int32 hu_cardid                 =7; //胡牌ID
-        optional int32 hu_type                   =8; //胡牌模式 0无、1平胡、2自摸、3油金
-        optional int32 param1                    =9; // 共几水
-        optional float param2                    =10; //结果金币//--free/end is_prepare
+        optional int32 hu_cardid                 =2; //胡牌ID
+        optional int32 hu_type                   =3; //胡牌模式 0无、1平胡、2自摸、3油金
+        optional int32 param1                    =4; // 共几水
+        optional float param2                    =5; //结果金币//--free/end is_prepare
     }
 ]]
 
@@ -131,7 +126,7 @@ local function gen_play_users(info,is_req_data,game_status)
             d.player_money = v.player_money
         end 
         if is_req_data then 
-            if game_status >= const.MJ_STATUS_PLAY and game_status< const.MJ_STATUS_END then 
+            if game_status >= const.MJ_STATUS_PLAY and game_status <= const.MJ_STATUS_END then 
                 if v.hand_list then 
                     d.hand_list = v.hand_list
                 end 
@@ -154,15 +149,16 @@ local function gen_play_users(info,is_req_data,game_status)
                 if v.out_list then 
                     d.out_list = v.out_list 
                 end  
+                if game_status == const.MJ_STATUS_END then 
+                    if v.param2 then 
+                        if v.param2 == 1 then 
+                            d.is_prepare = true 
+                        else 
+                            d.is_prepare = false
+                        end 
+                    end
+                end 
             elseif game_status == const.MJ_STATUS_FREE then 
-                if v.param2 then 
-                    if v.param2 == 1 then 
-                        d.is_prepare = true 
-                    else 
-                        d.is_prepare = false
-                    end 
-                end
-            elseif game_status == const.MJ_STATUS_END then 
                 if v.param2 then 
                     if v.param2 == 1 then 
                         d.is_prepare = true 
