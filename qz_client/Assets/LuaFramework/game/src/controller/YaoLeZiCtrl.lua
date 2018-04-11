@@ -426,6 +426,7 @@ function this.UpdateBetState(data,liuju)
         this.YP.robBg_UISprite.color = Color.white;
         this.YP.robEffect:SetActive(true);
         --更新多功能按钮
+        this.UpdateTypeAndBout(data) 
         this.UpdateFlexoBtnType();
 
 

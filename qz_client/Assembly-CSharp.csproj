@@ -465,19 +465,19 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="CString">
- <HintPath>E:/SVN/SELFPROJECT/qz_client_ngui/qz_client/Assets/Plugins/CString.dll</HintPath>
+ <HintPath>E:/QZMJ_CLIENT/qz_client/Assets/Plugins/CString.dll</HintPath>
  </Reference>
  <Reference Include="Debugger">
- <HintPath>E:/SVN/SELFPROJECT/qz_client_ngui/qz_client/Assets/Plugins/Debugger.dll</HintPath>
+ <HintPath>E:/QZMJ_CLIENT/qz_client/Assets/Plugins/Debugger.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>E:/SVN/SELFPROJECT/qz_client_ngui/qz_client/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>E:/QZMJ_CLIENT/qz_client/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Ionic.Zlib">
- <HintPath>E:/SVN/SELFPROJECT/qz_client_ngui/qz_client/Assets/Plugins/Ionic.Zlib.dll</HintPath>
+ <HintPath>E:/QZMJ_CLIENT/qz_client/Assets/Plugins/Ionic.Zlib.dll</HintPath>
  </Reference>
  <Reference Include="NSpeex">
- <HintPath>E:/SVN/SELFPROJECT/qz_client_ngui/qz_client/Assets/Plugins/NSpeex.dll</HintPath>
+ <HintPath>E:/QZMJ_CLIENT/qz_client/Assets/Plugins/NSpeex.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
